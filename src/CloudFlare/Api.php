@@ -176,7 +176,7 @@ class Api
             return !is_null($val);
         });
 
-        $url = 'https://api.cloudflare.com/client/v4/'.$path;
+        $url = 'https://api.cloudflare.com/client/v4'.$path;
 
         $default_curl_options = [
             CURLOPT_VERBOSE        => false,
